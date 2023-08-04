@@ -1,0 +1,35 @@
+.landscape{
+    display: none;
+}
+.portrait{
+    opacity: 100%;
+}
+.mask{
+    margin-top: -40px;
+}
+#aku{
+    margin-left: -40px;
+}
+#uka{
+    margin-right: -30px;
+}
+.caixaElementoA{
+    flex-direction: column-reverse;
+}
+.caixaElementoB{
+    flex-direction: column;
+}
+.elementoImagem{
+    width: 100%;
+}
+.elementoTexto{
+    text-align: center;
+    width: 100%;
+}
+.justificaMobile{
+    text-align: justify;
+    width: 100%;
+}
+#postagens{
+    margin-left: 0px;
+}
