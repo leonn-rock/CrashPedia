@@ -4,6 +4,9 @@
 .portrait{
     opacity: 100%;
 }
+.portraitON{
+    display: block;
+}
 .mask{
     margin-top: -40px;
 }

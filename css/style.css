@@ -9,9 +9,16 @@
 .portrait{
   opacity:0%;
 }
+.portraitON{
+  display: none;
+}
 .espaco{
     width: 100%;
     height: 50px;
+}
+.espacoP{
+  width: 100%;
+  height: 15px;
 }
 .espacoG{
     width: 100%;
