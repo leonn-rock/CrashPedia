@@ -99,3 +99,17 @@
   text-align: auto;
   width: 100%;
 }
+.imagemGaleria{
+  background-position: center;
+  background-size: contain;
+background-repeat: no-repeat;
+  height: 600px;
+  margin: 0px auto;
+}
+.indidcadorGaleria{
+  background-position: center;
+  background-size: cover;
+  width: 16%;             
+  height: 150px;
+  margin: 0px auto;
+}
