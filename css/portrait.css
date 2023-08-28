@@ -36,3 +36,14 @@
 #postagens{
     margin-left: 0px;
 }
+.imagemGaleria{
+    margin-top: 53.6px;
+    height: calc(100vh - 149.6px);
+    background-size: cover;
+}
+.espacoP{
+    display: none;
+}
+.caroussel-inner{
+    background-color: black;
+}

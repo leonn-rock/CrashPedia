@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,168 +12,220 @@
     <link rel="stylesheet" href="css/portrait.css" media="screen and (orientation:portrait)">
     <title>CrashPédia</title>
 </head>
+
 <body>
     <div class="container-fluid m-0 p-0" id="a0">
-        <!-- <div id="meio"class="fixed-top">
-                <div class="espacoG"></div>
-                <div id="aku" class="mask"></div>
-                <div id="uka" class="mask"></div>
-            </div> -->
         <nav class="bg-dark navbar navbar-expand-sm d-flex justify-content-around fixed-top">
             <ul class="navbar-nav landscape">
                 <li class="navbar-item"><a class="text-white nav-link" href="index.html"><b>Home</b></a></li>
-                <li class="navbar-item"><a class="text-white nav-link" href="personagens.html"><b>Personagens</b></a></li>
+                <li class="navbar-item"><a class="text-white nav-link" href="personagens.html"><b>Personagens</b></a>
+                </li>
                 <li class="navbar-item"><a class="text-warning nav-link" href="galeria.html"><b>Galeria</b></a></li>
-                <li class="navbar-item"><a class="text-white nav-link" href="forum.html"><b>Fórum</b></a></li>                
+                <li class="navbar-item"><a class="text-white nav-link" href="forum.html"><b>Fórum</b></a></li>
                 <li class="navbar-item"><a class="text-white nav-link" href="login2.html"><b>LogIn</b></a></li>
                 <li class="navbar-item"><a class="text-white nav-link" href="registro.html"><b>SignUp</b></a></li>
             </ul>
-            <button type="button" class="btn btn-outline-light dropdown-toggle portrait" data-bs-toggle="dropdown">Menu</button>
+            <button type="button" class="btn btn-outline-light dropdown-toggle portrait"
+                data-bs-toggle="dropdown">Menu</button>
             <ul class="dropdown-menu bg-dark portrait" id="menuHome">
-                <li class="dropdown-item"><a class="text-warning nav-link" href="index.html"><b>Home</b></a></li>
-                <li class="dropdown-item"><a class="text-white nav-link" href="personagens.html"><b>Personagens</b></a></li>
-                <li class="dropdown-item"><a class="text-white nav-link" href="forum.html"><b>Fórum</b></a></li>                
+                <li class="dropdown-item"><a class="text-white nav-link" href="index.html"><b>Home</b></a></li>
+                <li class="dropdown-item"><a class="text-white nav-link" href="personagens.html"><b>Personagens</b></a>
+                </li>
+                <li class="dropdown-item"><a class="text-warning nav-link" href="galeria.html"><b>Galeria</b></a></li>
+                <li class="dropdown-item"><a class="text-white nav-link" href="forum.html"><b>Fórum</b></a></li>
                 <li class="dropdown-item"><a class="text-white nav-link" href="login2.html"><b>LogIn</b></a></li>
                 <li class="dropdown-item"><a class="text-white nav-link" href="registro.html"><b>SignUp</b></a></li>
             </ul>
             <div class="alinhamentoNav"></div>
         </nav>
         <main>
-    
-            <div class="espaco"></div>            
-<div class="container-fluid d-flex flex-column-reverse m-0 p-0">
-    <div class="espaco"></div>
-            <!-- SLIDER DE IMAGENS -->
-        <div class="carousel slide" id="demo" data-bs-ride="carousel">
+            <div class="container-fluid d-flex flex-column-reverse m-0 p-0">
+                <!-- SLIDER DE IMAGENS -->
+                <div class="carousel slide m-0" id="demo" data-bs-ride="carousel">
 
-            <!-- CONTROLES ESQUERDA E DIREITA -->
-            <button class="carousel-control-prev portraitON" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <!-- CONTROLES ESQUERDA E DIREITA -->
+                    <!-- <button class="carousel-control-prev portraitON" type="button" data-bs-target="#demo" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
             </button>
             <button class="carousel-control-next portraitON" type="button" data-bs-target="#demo" data-bs-slide="next">
                 <span class="carousel-control-next-icon"></span>
-            </button>
+            </button> -->
 
-            <!-- SLIDER -->
-            <div class="carousel-inner">
+                    <!-- SLIDER -->
+                    <div class="carousel-inner">
 
-                <div class="carousel-item active" >
-                    <div class="container imagemSlider rounded imagemGaleria" style="background-image: url(images/crash1-fase1.jpg); "></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container imagemSlider rounded imagemGaleria" style="background-image: url(images-optimized/crash1-fase2.webp); "></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container imagemSlider rounded imagemGaleria" style="background-image: url(images-optimized/crash1-fase3.webp); "></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container imagemSlider rounded imagemGaleria" style="background-image: url(images/crash1-fase4.png); "></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container imagemSlider rounded imagemGaleria" style="background-image: url(images-optimized/crash1-fase5.webp); "></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container imagemSlider rounded imagemGaleria" style="background-image: url(images-optimized/crash1-fase6.webp); "></div>
-                </div>
-                <div class="carousel-item " >
-                    <div class="container imagemSlider rounded imagemGaleria" style="background-image: url(images-optimized/crash2-bonus.webp); "></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container imagemSlider rounded imagemGaleria" style="background-image: url(images-optimized/crash2-fase2.webp); "></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container imagemSlider rounded imagemGaleria" style="background-image: url(images-optimized/crash2-fase4.webp); "></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container imagemSlider rounded imagemGaleria" style="background-image: url(images-optimized/crash2-fase5.webp); "></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container imagemSlider rounded imagemGaleria" style="background-image: url(images-optimized/crash2-fase6.webp); "></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container imagemSlider rounded imagemGaleria" style="background-image: url(images/crash2-fase1.jpg); "></div>
-                </div>
-                <div class="carousel-item " >
-                    <div class="container imagemSlider rounded imagemGaleria" style="background-image: url(images-optimized/crash3-fase1.webp); "></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container imagemSlider rounded imagemGaleria" style="background-image: url(images-optimized/crash3-fase2.webp); "></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container imagemSlider rounded imagemGaleria" style="background-image: url(images-optimized/crash3-fase3.webp); "></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container imagemSlider rounded imagemGaleria" style="background-image: url(images-optimized/crash3-fase4.webp); "></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container imagemSlider rounded imagemGaleria" style="background-image: url(images-optimized/crash3-fase5.webp); "></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container imagemSlider rounded imagemGaleria" style="background-image: url(images-optimized/crash3-aku.webp); "></div>
-                </div>
-                
-            </div>
-        </div>
-
-
-        <!-- SLIDER DE IMAGENS (Este slider serve de indicador para o outro) -->
-        <div class="carousel slide p-2 mb-2 landscape" id="demo2" data-bs-ride="carousel" >
-
-            <!-- SLIDER -->
-            <div class="carousel-inner p-0" style="width: 65%; margin: 0px auto; overflow: hidden">
-
-                <div class="carousel-item active " >
-                    <div class="container imagemSlider d-flex">
-                        <div class="container rounded indidcadorGaleria" data-bs-target="#demo" data-bs-slide-to="0" class="active" style="background-image: url(images/crash1-fase1.jpg);"></div>
-                        <div class="container rounded indidcadorGaleria" data-bs-target="#demo" data-bs-slide-to="1" style="background-image: url(images-optimized/crash1-fase2.webp);"></div>
-                        <div class="container rounded indidcadorGaleria" data-bs-target="#demo" data-bs-slide-to="2" style="background-image: url(images-optimized/crash1-fase3.webp);"></div>
-                        <div class="container rounded indidcadorGaleria" data-bs-target="#demo" data-bs-slide-to="3" style="background-image: url(images/crash1-fase4.png);"></div>
-                        <div class="container rounded indidcadorGaleria" data-bs-target="#demo" data-bs-slide-to="4" style="background-image: url(images-optimized/crash1-fase5.webp);"></div>
-                        <div class="container rounded indidcadorGaleria" data-bs-target="#demo" data-bs-slide-to="5" style="background-image: url(images-optimized/crash1-fase6.webp);"></div>
-
-                    </div>
-                </div>
-        
-                <div class="carousel-item">
-                    <div class="container imagemSlider">
-                        <div class="container imagemSlider d-flex">
-                            <div class="container rounded indidcadorGaleria" data-bs-target="#demo" data-bs-slide-to="6" style="background-image: url(images-optimized/crash2-bonus.webp);"></div>
-                            <div class="container rounded indidcadorGaleria" data-bs-target="#demo" data-bs-slide-to="7" style="background-image: url(images-optimized/crash2-fase2.webp);"></div>
-                            <div class="container rounded indidcadorGaleria" data-bs-target="#demo" data-bs-slide-to="8" style="background-image: url(images-optimized/crash2-fase4.webp);"></div>
-                            <div class="container rounded indidcadorGaleria" data-bs-target="#demo" data-bs-slide-to="9" style="background-image: url(images-optimized/crash2-fase5.webp);"></div>
-                            <div class="container rounded indidcadorGaleria" data-bs-target="#demo" data-bs-slide-to="10" style="background-image: url(images-optimized/crash2-fase6.webp);"></div>
-                            <div class="container rounded indidcadorGaleria" data-bs-target="#demo" data-bs-slide-to="11" style="background-image: url(images/crash2-fase1.jpg);"></div>
-
+                        <div class="carousel-item active">
+                            <div class="container imagemSlider rounded imagemGaleria"
+                                style="background-image: url(images/crash1-fase1.jpg); "></div>
                         </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container imagemSlider">
-                        <div class="container imagemSlider d-flex">
-                            <div class="container rounded indidcadorGaleria" data-bs-target="#demo" data-bs-slide-to="12" style="background-image: url(images-optimized/crash3-fase1.webp);"></div>
-                            <div class="container rounded indidcadorGaleria" data-bs-target="#demo" data-bs-slide-to="13" style="background-image: url(images-optimized/crash3-fase2.webp);"></div>
-                            <div class="container rounded indidcadorGaleria" data-bs-target="#demo" data-bs-slide-to="14" style="background-image: url(images-optimized/crash3-fase3.webp);"></div>
-                            <div class="container rounded indidcadorGaleria" data-bs-target="#demo" data-bs-slide-to="15" style="background-image: url(images-optimized/crash3-fase4.webp);"></div>
-                            <div class="container rounded indidcadorGaleria" data-bs-target="#demo" data-bs-slide-to="16" style="background-image: url(images-optimized/crash3-fase5.webp);"></div>
-                            <div class="container rounded indidcadorGaleria" data-bs-target="#demo" data-bs-slide-to="17" style="background-image: url(images-optimized/crash3-aku.webp);"></div>
-
+                        <div class="carousel-item">
+                            <div class="container imagemSlider rounded imagemGaleria"
+                                style="background-image: url(images-optimized/crash1-fase2.webp); "></div>
                         </div>
+                        <div class="carousel-item">
+                            <div class="container imagemSlider rounded imagemGaleria"
+                                style="background-image: url(images-optimized/crash1-fase3.webp); "></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container imagemSlider rounded imagemGaleria"
+                                style="background-image: url(images/crash1-fase4.png); "></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container imagemSlider rounded imagemGaleria"
+                                style="background-image: url(images-optimized/crash1-fase5.webp); "></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container imagemSlider rounded imagemGaleria"
+                                style="background-image: url(images-optimized/crash1-fase6.webp); "></div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="container imagemSlider rounded imagemGaleria"
+                                style="background-image: url(images-optimized/crash2-bonus.webp); "></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container imagemSlider rounded imagemGaleria"
+                                style="background-image: url(images-optimized/crash2-fase2.webp); "></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container imagemSlider rounded imagemGaleria"
+                                style="background-image: url(images-optimized/crash2-fase4.webp); "></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container imagemSlider rounded imagemGaleria"
+                                style="background-image: url(images-optimized/crash2-fase5.webp); "></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container imagemSlider rounded imagemGaleria"
+                                style="background-image: url(images-optimized/crash2-fase6.webp); "></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container imagemSlider rounded imagemGaleria"
+                                style="background-image: url(images/crash2-fase1.jpg); "></div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="container imagemSlider rounded imagemGaleria"
+                                style="background-image: url(images-optimized/crash3-fase1.webp); "></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container imagemSlider rounded imagemGaleria"
+                                style="background-image: url(images-optimized/crash3-fase2.webp); "></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container imagemSlider rounded imagemGaleria"
+                                style="background-image: url(images-optimized/crash3-fase3.webp); "></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container imagemSlider rounded imagemGaleria"
+                                style="background-image: url(images-optimized/crash3-fase4.webp); "></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container imagemSlider rounded imagemGaleria"
+                                style="background-image: url(images-optimized/crash3-fase5.webp); "></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container imagemSlider rounded imagemGaleria"
+                                style="background-image: url(images-optimized/crash3-aku.webp); "></div>
+                        </div>
+
                     </div>
                 </div>
-                
-            
-            </div>
-            <!-- CONTROLES ESQUERDA E DIREITA -->
-            <button class="carousel-control-prev my-2 mx-0" type="button" data-bs-target="#demo2" data-bs-slide="prev" style="background-color:  black; height: 150px; position: absolute; left: 12%; width: 5%;">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next my-2" type="button" data-bs-target="#demo2" data-bs-slide="next" style="background-color:  black; height: 150px; position: absolute; right: 12%; width: 5%;">
-                <span class="carousel-control-next-icon"></span>
-            </button>
-        </div>
-        <div class="espacoP"></div>
 
-    </div>
+
+                <!-- SLIDER DE IMAGENS (Este slider serve de indicador para o outro) -->
+                <div class="carousel slide p-2 landscape" id="demo2" data-bs-ride="carousel">
+
+                    <!-- SLIDER -->
+                    <div class="carousel-inner p-0" style="width: 65%; margin: 0px auto; overflow: hidden">
+
+                        <div class="carousel-item active ">
+                            <div class="container imagemSlider d-flex">
+                                <div class="container rounded indidcadorGaleria" data-bs-target="#demo"
+                                    data-bs-slide-to="0" class="active"
+                                    style="background-image: url(images/crash1-fase1.jpg);"></div>
+                                <div class="container rounded indidcadorGaleria" data-bs-target="#demo"
+                                    data-bs-slide-to="1"
+                                    style="background-image: url(images-optimized/crash1-fase2.webp);"></div>
+                                <div class="container rounded indidcadorGaleria" data-bs-target="#demo"
+                                    data-bs-slide-to="2"
+                                    style="background-image: url(images-optimized/crash1-fase3.webp);"></div>
+                                <div class="container rounded indidcadorGaleria" data-bs-target="#demo"
+                                    data-bs-slide-to="3" style="background-image: url(images/crash1-fase4.png);"></div>
+                                <div class="container rounded indidcadorGaleria" data-bs-target="#demo"
+                                    data-bs-slide-to="4"
+                                    style="background-image: url(images-optimized/crash1-fase5.webp);"></div>
+                                <div class="container rounded indidcadorGaleria" data-bs-target="#demo"
+                                    data-bs-slide-to="5"
+                                    style="background-image: url(images-optimized/crash1-fase6.webp);"></div>
+
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container imagemSlider">
+                                <div class="container imagemSlider d-flex">
+                                    <div class="container rounded indidcadorGaleria" data-bs-target="#demo"
+                                        data-bs-slide-to="6"
+                                        style="background-image: url(images-optimized/crash2-bonus.webp);"></div>
+                                    <div class="container rounded indidcadorGaleria" data-bs-target="#demo"
+                                        data-bs-slide-to="7"
+                                        style="background-image: url(images-optimized/crash2-fase2.webp);"></div>
+                                    <div class="container rounded indidcadorGaleria" data-bs-target="#demo"
+                                        data-bs-slide-to="8"
+                                        style="background-image: url(images-optimized/crash2-fase4.webp);"></div>
+                                    <div class="container rounded indidcadorGaleria" data-bs-target="#demo"
+                                        data-bs-slide-to="9"
+                                        style="background-image: url(images-optimized/crash2-fase5.webp);"></div>
+                                    <div class="container rounded indidcadorGaleria" data-bs-target="#demo"
+                                        data-bs-slide-to="10"
+                                        style="background-image: url(images-optimized/crash2-fase6.webp);"></div>
+                                    <div class="container rounded indidcadorGaleria" data-bs-target="#demo"
+                                        data-bs-slide-to="11" style="background-image: url(images/crash2-fase1.jpg);">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container imagemSlider">
+                                <div class="container imagemSlider d-flex">
+                                    <div class="container rounded indidcadorGaleria" data-bs-target="#demo"
+                                        data-bs-slide-to="12"
+                                        style="background-image: url(images-optimized/crash3-fase1.webp);"></div>
+                                    <div class="container rounded indidcadorGaleria" data-bs-target="#demo"
+                                        data-bs-slide-to="13"
+                                        style="background-image: url(images-optimized/crash3-fase2.webp);"></div>
+                                    <div class="container rounded indidcadorGaleria" data-bs-target="#demo"
+                                        data-bs-slide-to="14"
+                                        style="background-image: url(images-optimized/crash3-fase3.webp);"></div>
+                                    <div class="container rounded indidcadorGaleria" data-bs-target="#demo"
+                                        data-bs-slide-to="15"
+                                        style="background-image: url(images-optimized/crash3-fase4.webp);"></div>
+                                    <div class="container rounded indidcadorGaleria" data-bs-target="#demo"
+                                        data-bs-slide-to="16"
+                                        style="background-image: url(images-optimized/crash3-fase5.webp);"></div>
+                                    <div class="container rounded indidcadorGaleria" data-bs-target="#demo"
+                                        data-bs-slide-to="17"
+                                        style="background-image: url(images-optimized/crash3-aku.webp);"></div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- CONTROLES ESQUERDA E DIREITA -->
+                    <button class="carousel-control-prev my-2 mx-0" type="button" data-bs-target="#demo2"
+                        data-bs-slide="prev"
+                        style="background-color:  black; height:10vh; position: absolute; left: 12%; width: 5%;">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next my-2" type="button" data-bs-target="#demo2"
+                        data-bs-slide="next"
+                        style="background-color:  black; height:10vh; position: absolute; right: 12%; width: 5%;">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
         </main>
         <footer class="container-fluid py-3 text-white bg-dark d-flex flex-column align-items-center text-center">
             <p>Este é um site feito por fãs e para fãs. Os direitos da franquia são da Activision até o momento.</p>
@@ -185,4 +238,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 
 </body>
+
 </html>
