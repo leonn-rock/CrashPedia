@@ -149,3 +149,19 @@
 .slide{
   margin-top: 56px;
 }
+.imgG{
+  margin: 50px auto;
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+}
+.ps2{
+  background-position: top;
+  background-size: 80%;
+  background-color: black;
+}
+.ps4{
+  background-position: center;
+  background-size: 90%;
+  background-color: #1355e1;
+}
