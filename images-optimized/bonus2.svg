@@ -1,0 +1,37 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 786 174" width="786" height="174">
+	<title>Novo Projeto</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,-141,81,0,83.5,157)">
+			<stop offset="0" stop-color="#00ff42"/>
+			<stop offset="1" stop-color="#ffffff"/>
+		</linearGradient>
+		<linearGradient id="g2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,-142,82,0,231,158)">
+			<stop offset="0" stop-color="#00ff42"/>
+			<stop offset="1" stop-color="#ffffff"/>
+		</linearGradient>
+		<linearGradient id="g3" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,-139,81,0,392.5,159)">
+			<stop offset="0" stop-color="#00ff42"/>
+			<stop offset="1" stop-color="#ffffff"/>
+		</linearGradient>
+		<linearGradient id="g4" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,-136,83,0,550.5,155)">
+			<stop offset="0" stop-color="#00ff42"/>
+			<stop offset="1" stop-color="#ffffff"/>
+		</linearGradient>
+		<linearGradient id="g5" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,-146,81,0,716.5,160)">
+			<stop offset="0" stop-color="#00ff42"/>
+			<stop offset="1" stop-color="#ffffff"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1);stroke: #000000;stroke-miterlimit:100;stroke-width: 6.9 } 
+		.s1 { fill: url(#g2);stroke: #000000;stroke-miterlimit:100;stroke-width: 6.9 } 
+		.s2 { fill: url(#g3);stroke: #000000;stroke-miterlimit:100;stroke-width: 6.9 } 
+		.s3 { fill: url(#g4);stroke: #000000;stroke-miterlimit:100;stroke-width: 6.9 } 
+		.s4 { fill: url(#g5);stroke: #000000;stroke-miterlimit:100;stroke-width: 6.9 } 
+	</style>
+	<path id="Forma 1" fill-rule="evenodd" class="s0" d="m67 22l5-6h25l12 18 2 25-9 14 15.7 9.3 6.3 17.7-5 41-29 16-47-4v-5l7-4-4-113-3-7zm-3 18l6 33h19l11-15-4-19-13-7zm6 47l4 49 19-5 7-15-1-19-11-10z"/>
+	<path id="Forma 5" fill-rule="evenodd" class="s1" d="m261 27l11 31v48l-18 41-23 11-24-12-11-27-6-32 10-46 14-18 24-7zm-25 12l-11 4-8 26v36l7 23 9 6 13-12 6-41-4-30z"/>
+	<path id="Forma 6" class="s2" d="m354 24l42-4-9 15 1 27 23 63-5-52-2-29-7-2 12-12 22-4 2 10-8 7-2 81 10 21-22 9-29-53 2 32 9 18-41 8 5-12 6-103z"/>
+	<path id="Forma 7" class="s3" d="m509 48l37-4-10 40 2 38 8 16h12l9-31-2-46-2-21h-7l9-15 14-1 2-5h11v11l-11 11 6 41-2 34-11 24-17 15-19-1-17-16-8-30 1-27 6-11h-10z"/>
+	<path id="Forma 8" class="s4" d="m754 65l3-48-7-3v8h-31l-31 16-8 15v24l18 18 21 15-1 10-9 11h-13l-16-30-4 2 1 30 8 27 5-13 5.6 3.3 8.9 4.6 23.2-1.2 25.3-20.7 4-24-15-24-22-12-12-13 5-17 14-7 16 4 5 12z"/>
+</svg>

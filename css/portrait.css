@@ -7,6 +7,9 @@
 .portraitON{
     display: block;
 }
+.caixaElementoA, .caixaElementoB{
+ width: 100%;
+}
 .mask{
     margin-top: -40px;
 }
@@ -47,3 +50,19 @@
 .caroussel-inner{
     background-color: black;
 }
+#bonus{
+    top: 90px;
+    animation: mostra 2s infinite steps(6);
+    left: calc(50vw - 220px);
+    background-size: 400px;
+    height: 88px;
+  }
+  
+  @keyframes mostra {
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 480px;
+    }
+  }

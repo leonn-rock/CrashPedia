@@ -165,3 +165,73 @@
   background-size: 90%;
   background-color: #1355e1;
 }
+#bonus{
+  position: relative;
+  left: calc(50vw - 300px);
+  background-image: url("../images-optimized/bonus2.svg");
+  background-repeat: no-repeat;
+  background-size: 500px;
+  height: 110px;
+  overflow: hidden;
+  animation: mostra 2s infinite steps(6);
+}
+
+@keyframes mostra {
+  0%{
+      width: 0px;
+  }
+  100%{
+      width: 600px;
+  }
+}
+
+/* POP UP PÁGINA RELACIONADOS */
+
+#popup{
+  position: absolute;
+  left:-400px;
+  display: flex;
+  align-items: top;
+  justify-content: right;
+  width: 400px;
+  height: 80px;
+  margin-top: 100px;
+  background-color: white;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  border-radius: 0 5px 5px 0;
+}
+#conteudoPop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px
+}
+#texto p{
+  line-height: 80px;
+  margin: 0 0 5px 0;
+}
+#ps{
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 0 5px rgb(0, 102, 255), inset 0 0 5px rgb(0, 102, 255);
+  border-radius: 100%;
+  background-image: url("../images-optimized/ps4-trofeu.svg");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#capa{
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-image: url("../images-optimized/crash-1.webp");
+  background-size: cover;
+}
+#fechar{
+  color: rgba(128, 128, 128, 0.418);
+  margin: 5px 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
