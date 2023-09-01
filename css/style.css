@@ -184,7 +184,13 @@
       width: 600px;
   }
 }
-
+#relacionados{
+  width: 30px;
+  height: 30px;
+  background-image: url(../images-optimized/wumpa-img.webp);
+  background-size: cover;
+  cursor: pointer;
+}
 /* POP UP PÁGINA RELACIONADOS */
 
 #popup{
@@ -234,4 +240,14 @@
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
+}
+
+/* POP UP PÁGINA LOGIN*/
+
+#popupLogin{
+  height: 80vh;
+  width: 40vw;
+  position: absolute;
+  top: 70px;
+  left: 30vw;
 }

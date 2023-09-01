@@ -19,6 +19,46 @@
         <div id="aku" class="mask"></div>
         <div id="uka" class="mask"></div>
     </div>
+    <div id="popupLogin">
+      <div class="container text-white fundo d-flex align-items-center justify-content-center">
+        <div class="text-center my-2 d-flex flex-column align-items-center " id="conteudoLogin">
+          <div id="some">
+            <h3>Se você não é Victor Rohod, Esta mensagem não é para você!</h3>
+            <p>Confirme sua identidade com seu nick do GitHub:</p>
+            <div class="d-flex gap-1 justify-content-center">
+              <input type="text" id="confirma"> <button id="btnConfirma" class="btn btn-primary">Confimar</button>
+            </div>
+          </div>
+          <div id="aparece">
+            <div class="d-flex flex-column align-items-center">
+              <h3 class="my-5" >Esta é a janela de instruções.</h3>
+              <div class="d-flex text-start w-75">
+                <b class="mx-1">1.</b>
+                <p>Esta é a primeira de 9 páginas a serem visitadas na ordem de sua escolha.</p>
+              </div>
+              <div class="d-flex text-start w-75">
+                <b class="mx-1">2.</b>
+                <p>Todas as páginas tem algum elemento com JavaScript</p>
+              </div>
+              <div class="d-flex text-start w-75">
+                <b class="mx-1">3.</b>
+                <p>Existe uma página que só é acessada clicando no botão "esqueci o Código", que está na página de Login.</p>
+              </div>
+              <div class="d-flex text-start w-75">
+                <b class="mx-1">4.</b>
+                <p>Existe uma página bônus que é acessada clicando na Fruta que fica acima do rodapé na página Outros Games.</p>
+              </div>
+              <div class="d-flex text-start w-75">
+                <b class="mx-1">5.</b>
+                <p>CrashPédia foi feito para uma avaliação, mas serve também para aprender curiosidades sobre meus jogos favoritos (e alguns dos seus também!)</p>
+              </div>
+              <h3 class="my-5">Grande abraço e divirta-se!</h3>
+              <p>(PS: para ver estas instruções novamente, só repetindo o procedimento)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <nav class="bg-dark navbar navbar-expand-sm d-flex justify-content-around fixed-top">
         <ul class="navbar-nav landscape">
             <li class="navbar-item"><a class="text-white nav-link" href="index.html"><b>Home</b></a></li>
@@ -42,7 +82,7 @@
             <div class="alinhamentoNav"></div>
     </nav>
     <main class="d-flex flex-column align-items-center justify-content-center" style="height:calc(100vh - 72px)">
-      <div class="container text-white fundo">
+      <div id="tudo" class="container text-white fundo">
         <div class="espaco"></div>
         <form action="index.html" method="get" class="form d-flex flex-column align-items-center">
           <h1>Tela de entrada:</h1>
@@ -54,14 +94,14 @@
             <div class="container d-flex flex-column align-items-end m-0" style="width: 195px">
               <fieldset>
                 <label for="identificacao" class="h4">idBandicoot:</label>
-                <input class="caixa" type="text" name="identificacao" />
+                <input class="caixa" id="identificacao" type="text" name="identificacao" />
               </fieldset>
               <fieldset>
                 <label for="senha" class="mt-2 h4">Código de acesso:</label>
-                <input class="caixa" type="password" id="senha" name="lname" />
+                <input class="caixa" type="password" id="senha" name="senha" />
               </fieldset>
             </div>
-            <input class="btn btn-success p-3" style="margin-top: 35px ;" type="submit" value="Entrar" />
+            <button class="btn btn-success p-3" style="margin-top: 35px ;" onclick="entrar()" type="button">Entrar</button>
           </div>
           <fieldset>
             <div id="fim">
@@ -85,5 +125,7 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.js"></script>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/login.js"></script>
   </body>
 </html>
