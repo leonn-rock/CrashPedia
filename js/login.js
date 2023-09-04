@@ -17,12 +17,12 @@ class Cadastrado{
 var cad1 = new Cadastrado("Admin","Admin")
 var cad2 = new Cadastrado("VictorRohod","prefiroJakAndDaxter")
 var cadastrados = [cad1,cad2]
-var idValor, senhaValor, verificaId, verificaSenha
-document.body.onload = esconde()
+var idValor, senhaValor, verificaId = false, verificaSenha = false
+// document.body.onload = esconde()
 
-function esconde(){
-    popupLogin.hide()
-}
+// function esconde(){
+//     popupLogin.hide()
+// }
 
 function troca(){
     popupLogin.toggle()
@@ -32,7 +32,7 @@ divAparece.hide()
 
 btnConfirma.on('click', confirmarId)
 
-function entrar(){
+function entrar(){  //chamada direto pelo botão do HTML
     console.log("Clicou")
     atribui()
     if(idValor == ""){
@@ -52,18 +52,22 @@ function verificaIdSenha(){
     for(let i = 0; i<cadastrados.length; i++ ){
         console.log(i)
         if(cadastrados[i].id == identificacao.val()){
+            verificaId= true
             if(cadastrados[i].senha == senha.val()){
                 verificaSenha = true
                 if(cadastrados[i].id == "VictorRohod"){
                     troca()
                 } else if (cadastrados[i].id == identificacao.val()){
+                    window.alert("Login efetuado!")
                     window.location.replace("index.html")
-                } else{
-                }
-                
+                }                
             }
-        } else{
-        }
+         }
+    }
+    if(verificaId == false){
+        window.alert("Id inexistente. Verifique a ortografia ou clique em registrar.")
+    } else if(verificaSenha == false){
+        window.alert('Código incorreto. Caso tenha esquecido, clique em "esqueci o código".')
     }
 }
 

@@ -56,13 +56,50 @@
     left: calc(50vw - 220px);
     background-size: 400px;
     height: 88px;
-  }
+}
   
-  @keyframes mostra {
+@keyframes mostra {
     0%{
         width: 0px;
     }
     100%{
         width: 480px;
     }
+}
+#popupLogin{
+    height: 80vh;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 150px;
+    left: 3%;
+}
+#tudo{
+    width: 90%;
   }
+.fundo{
+    width: 90vw;
+}
+.caixaForum{
+    width: 350px;
+    margin: 0 auto;
+}
+.justify-content-end{
+    margin-left: -40px;
+}
+#forum fieldset{
+    margin: 0 auto;
+    padding: 0;
+    width: 400px;
+}
+#caixaBtns{
+    margin: 48px -40px;
+    padding: 0;
+}
+.caixa{
+    width: 100%;
+}
+#aparece{
+    max-height:50vh;
+}

@@ -25,7 +25,10 @@
     height: 100px;
 }
 .caixa{
-  width: 100%;
+  width: 400px;
+}
+.caixaForum{
+  width: 400px;
 }
 #meio{
     margin: 0 auto;
@@ -245,9 +248,28 @@
 /* POP UP PÁGINA LOGIN*/
 
 #popupLogin{
+  display: none;
   height: 80vh;
   width: 40vw;
   position: absolute;
   top: 70px;
   left: 30vw;
+}
+#aparece{
+  max-height:70vh;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+#aparece::-webkit-scrollbar {
+  display: none;
+}
+/*FORMATAÇÃO DO FORUM*/
+#tudo{
+  width: 50vw;
+  left: 25vw;
+}
+#caixaBtns{
+  margin: 48px;
+  padding: 0;
 }
